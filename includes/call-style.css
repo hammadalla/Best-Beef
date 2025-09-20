@@ -362,6 +362,10 @@ ul li {
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 66935c6 (change image and pages)
 .nav-link.button-soild:hover {
     color: var(--black-color) !important;
 }
@@ -432,8 +436,14 @@ ul li {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     border-radius: 30px;
+<<<<<<< HEAD
     padding: 40px;
     box-shadow: 1px 5px 5px #ddd;
+=======
+    padding: 30px;
+    box-shadow: 1px 5px 5px #ddd;
+    height: 100%;
+>>>>>>> 66935c6 (change image and pages)
 }
 
 .card-company-slid-image {
@@ -446,8 +456,13 @@ ul li {
     width: 150px;
     max-width: 100%;
     margin: auto;
+<<<<<<< HEAD
     -webkit-filter: brightness(0);
     filter: brightness(0);
+=======
+    -webkit-filter: grayscale(100);
+    filter: grayscale(100);
+>>>>>>> 66935c6 (change image and pages)
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -456,10 +471,17 @@ ul li {
 }
 
 .card-company:hover .card-company-slid-image img {
+<<<<<<< HEAD
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
     -webkit-animation: brightness 0.6s alternate;
     animation: brightness 0.6s alternate;
+=======
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-animation: grayscale 0.6s alternate;
+    animation: grayscale 0.6s alternate;
+>>>>>>> 66935c6 (change image and pages)
 }
 
 
@@ -525,7 +547,11 @@ ul li {
 }
 
 
+<<<<<<< HEAD
 @keyframes brightness {
+=======
+@keyframes grayscale {
+>>>>>>> 66935c6 (change image and pages)
     0% {
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
@@ -540,6 +566,10 @@ ul li {
         -ms-transform: translateY(100%);
         -o-transform: translateY(100%);
         transform: translateY(100%);
+<<<<<<< HEAD
+=======
+        opacity: 0;
+>>>>>>> 66935c6 (change image and pages)
     }
 
     100% {
@@ -1757,8 +1787,13 @@ ul li {
 
 .reverse:nth-child(even) {
     flex-direction: row-reverse;
+<<<<<<< HEAD
     background-color: #F0F2F4;
     box-shadow: 0 0 0 10px #dddddd70;
+=======
+    /* background-color: #F0F2F4; */
+    /* box-shadow: 0 0 0 10px #dddddd70; */
+>>>>>>> 66935c6 (change image and pages)
 }
 
 .barnds-d {
@@ -1825,16 +1860,116 @@ ul li {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 .sustain-card>div {
     height: 200px;
     width: 100%;
 }
 
+=======
+
+.catalog-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.catalog-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.catalog-card:hover img {
+    transform: scale(1.1);
+}
+
+.catalog-card .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.651);
+    color: #fff;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    transition: opacity 0.4s ease;
+}
+
+.catalog-card:hover .overlay {
+    opacity: 1;
+    color: #fff;
+}
+
+.catalog-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.catalog-card p {
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.catalog-ribbon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #000;
+    box-shadow: 0 0 15px 1px #0000006b;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    z-index: 2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+>>>>>>> 66935c6 (change image and pages)
 .sustain-card>div img {
     height: 100%;
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.factory-management h2, .factory-management h3 {
+    font-weight: 900;
+}
+
+.factory-management .card-company:hover img {
+    transform: rotatey(180deg) translateY(-15px);
+    -webkit-transform: rotatey(180deg) translateY(-15px);
+    -moz-transform: rotatey(180deg) translateY(-15px);
+    -ms-transform: rotatey(180deg) translateY(-15px);
+    -o-transform: rotatey(180deg) translateY(-15px);
+}
+
+.factory-management .card-company {
+    background-color: #fcfcfc;
+}
+
+.factory-management .card-company img {
+    transition: all 1s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+>>>>>>> 66935c6 (change image and pages)
 /* Media Query // -------------- >>  */
 
 

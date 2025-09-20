@@ -15,7 +15,11 @@
 <body>
 
 
+<<<<<<< HEAD
      <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
+=======
+  <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
+>>>>>>> 66935c6 (change image and pages)
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
@@ -47,6 +51,12 @@
                             <li>
                                 <a class="dropdown-item" href="our-mission.html">Our Mission</a>
                             </li>
+<<<<<<< HEAD
+=======
+                            <li>
+                                <a class="dropdown-item" href="management.html">Management</a>
+                            </li>
+>>>>>>> 66935c6 (change image and pages)
                         </ul>
                     </li>
 
@@ -58,6 +68,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
+<<<<<<< HEAD
                                 <a class="dropdown-item" href="brand-almarai.html">Almarai</a>
                             </li>
                             <li>
@@ -74,6 +85,24 @@
                             </li>
                             <li>
                                 <a class="dropdown-item" href="brand-heinz.html">Heinz</a>
+=======
+                                <a class="dropdown-item" href="brands-d.html">Almarai</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="brands-d.html">Sadia</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="brands-d.html">Koki</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="brands-d.html">Halloum</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="brands-d.html">Sunbulah</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="brands-d.html">Heinz</a>
+>>>>>>> 66935c6 (change image and pages)
                             </li>
                         </ul>
                     </li>
@@ -87,7 +116,14 @@
                         <ul class="dropdown-menu">
 
                             <li>
+<<<<<<< HEAD
                                 <a class="dropdown-item" href="news.html">News</a>
+=======
+                                <a class="dropdown-item" href="media.html">News</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="media.html">Advertising</a>
+>>>>>>> 66935c6 (change image and pages)
                             </li>
                         </ul>
                     </li>
@@ -111,7 +147,11 @@
                 <!-- Language -->
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
+<<<<<<< HEAD
                         <a class="nav-link button-soild" href="contactus.html">Arabic <i class="fa fa-globe"></i></a>
+=======
+                        <a class="nav-link button-soild" href="#">Arabic <i class="fa fa-globe"></i></a>
+>>>>>>> 66935c6 (change image and pages)
                     </li>
                 </ul>
             </div>
@@ -139,10 +179,19 @@
                     <h3 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, esse.</h3>
 
                     <!-- Article Image -->
+<<<<<<< HEAD
                     <div class="card-blog-d">
                         <img src="includes/images/slidtow.jpg" class="img-fluid"
                             alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, esse.">
                     </div>
+=======
+                    <!-- <div class="card-blog-d">
+                        <img src="includes/images/slidtow.jpg" class="img-fluid"
+                            alt="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, esse.">
+                    </div> -->
+
+                    <div class="card-blog-d" id="mediaContainer"></div>
+>>>>>>> 66935c6 (change image and pages)
                     <!-- Meta Info -->
                     <div class="blog-body">
                         <!-- Article Content -->
@@ -361,6 +410,46 @@
     <script src="includes/js/bootstrap.bundle.min.js"></script>
     <script src="includes/js/jquery-3.6.3.min.js"></script>
     <script src="includes/main.js"></script>
+<<<<<<< HEAD
+=======
+
+
+    <script>
+    function renderMedia(containerId, mediaSrc) {
+        let container = document.getElementById(containerId);
+
+        if (!mediaSrc) {
+            container.innerHTML = "<p>No media available</p>";
+            return;
+        }
+
+        if (mediaSrc.includes("youtube.com") || mediaSrc.includes("youtu.be")) {
+            
+            let videoId = "";
+            if (mediaSrc.includes("youtube.com")) {
+                videoId = new URL(mediaSrc).searchParams.get("v");
+            } else {
+                videoId = mediaSrc.split("/").pop();
+            }
+
+            container.innerHTML = `
+                <iframe width="100%" height="550" style="border-radius:20px; box-shadow:0 0 10px 3px #00000046;"
+                    src="https://www.youtube.com/embed/${videoId}"
+                    title="YouTube video" frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            `;
+        } else {
+            container.innerHTML = `
+                <img src="${mediaSrc}" class="img-fluid" alt="Media content">
+            `;
+        }
+    }
+
+    
+    renderMedia("mediaContainer", "https://youtu.be/oPnp-8DJIrc?si=xgJirJi7VheAzTPi");
+</script>
+>>>>>>> 66935c6 (change image and pages)
 </body>
 
 </html>
