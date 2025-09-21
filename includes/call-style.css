@@ -428,11 +428,11 @@ ul li {
 
 .card-company {
     background-color: var(--white-color);
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    -ms-border-radius:30px;
-    -o-border-radius:30px;
-    border-radius:30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
     padding: 40px;
     box-shadow: 1px 5px 5px #ddd;
     padding: 30px;
@@ -1768,8 +1768,6 @@ ul li {
 
 .reverse:nth-child(even) {
     flex-direction: row-reverse;
-    background-color: #F0F2F4;
-    box-shadow: 0 0 0 10px #dddddd70;
 }
 
 .barnds-d {
@@ -1939,6 +1937,29 @@ ul li {
     -ms-transition: all 1s;
     -o-transition: all 1s;
 }
+
+
+.sustain-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sustain-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.sustain-card img {
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+
 
 /* Media Query // -------------- >>  */
 
