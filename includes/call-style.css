@@ -362,10 +362,7 @@ ul li {
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 66935c6 (change image and pages)
 .nav-link.button-soild:hover {
     color: var(--black-color) !important;
 }
@@ -431,19 +428,16 @@ ul li {
 
 .card-company {
     background-color: var(--white-color);
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    border-radius: 30px;
-<<<<<<< HEAD
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    border-radius:30px;
     padding: 40px;
     box-shadow: 1px 5px 5px #ddd;
-=======
     padding: 30px;
     box-shadow: 1px 5px 5px #ddd;
     height: 100%;
->>>>>>> 66935c6 (change image and pages)
 }
 
 .card-company-slid-image {
@@ -456,13 +450,10 @@ ul li {
     width: 150px;
     max-width: 100%;
     margin: auto;
-<<<<<<< HEAD
     -webkit-filter: brightness(0);
     filter: brightness(0);
-=======
     -webkit-filter: grayscale(100);
     filter: grayscale(100);
->>>>>>> 66935c6 (change image and pages)
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -471,17 +462,14 @@ ul li {
 }
 
 .card-company:hover .card-company-slid-image img {
-<<<<<<< HEAD
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
     -webkit-animation: brightness 0.6s alternate;
     animation: brightness 0.6s alternate;
-=======
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
     -webkit-animation: grayscale 0.6s alternate;
     animation: grayscale 0.6s alternate;
->>>>>>> 66935c6 (change image and pages)
 }
 
 
@@ -547,11 +535,7 @@ ul li {
 }
 
 
-<<<<<<< HEAD
-@keyframes brightness {
-=======
 @keyframes grayscale {
->>>>>>> 66935c6 (change image and pages)
     0% {
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
@@ -566,10 +550,7 @@ ul li {
         -ms-transform: translateY(100%);
         -o-transform: translateY(100%);
         transform: translateY(100%);
-<<<<<<< HEAD
-=======
         opacity: 0;
->>>>>>> 66935c6 (change image and pages)
     }
 
     100% {
@@ -1787,13 +1768,8 @@ ul li {
 
 .reverse:nth-child(even) {
     flex-direction: row-reverse;
-<<<<<<< HEAD
     background-color: #F0F2F4;
     box-shadow: 0 0 0 10px #dddddd70;
-=======
-    /* background-color: #F0F2F4; */
-    /* box-shadow: 0 0 0 10px #dddddd70; */
->>>>>>> 66935c6 (change image and pages)
 }
 
 .barnds-d {
@@ -1860,13 +1836,13 @@ ul li {
     overflow: hidden;
 }
 
-<<<<<<< HEAD
+
 .sustain-card>div {
     height: 200px;
     width: 100%;
 }
 
-=======
+
 
 .catalog-card {
     position: relative;
@@ -1934,16 +1910,12 @@ ul li {
     letter-spacing: 1px;
 }
 
-
-
->>>>>>> 66935c6 (change image and pages)
 .sustain-card>div img {
     height: 100%;
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
+
 .factory-management h2, .factory-management h3 {
     font-weight: 900;
 }
@@ -1968,8 +1940,6 @@ ul li {
     -o-transition: all 1s;
 }
 
-
->>>>>>> 66935c6 (change image and pages)
 /* Media Query // -------------- >>  */
 
 
