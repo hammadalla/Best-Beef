@@ -81,3 +81,43 @@ window.onscroll = function () {
 scrollBtn.onclick = function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+
+
+
+
+
+// عناصر التحكم
+const sidebar = document.getElementById("mobileSidebar");
+const openBtn = document.getElementById("openSidebar");
+const closeBtn = document.getElementById("closeSidebar");
+
+// فتح السايد بار
+openBtn.addEventListener("click", () => {
+    sidebar.classList.add("open");
+});
+
+// قفل السايد بار
+closeBtn.addEventListener("click", () => {
+    sidebar.classList.remove("open");
+});
+
+// التحكم في الدروب داون للموبايل
+document.querySelectorAll(".toggle-dropdown").forEach(toggle => {
+    toggle.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const parent = e.target.closest(".dropdown");
+        const dropdownMenu = parent.querySelector(".dropdown-menu");
+        const icon = toggle.querySelector("i");
+
+        dropdownMenu.classList.toggle("show");
+
+        if (dropdownMenu.classList.contains("show")) {
+            icon.classList.remove("fa-plus");
+            icon.classList.add("fa-minus");
+        } else {
+            icon.classList.remove("fa-minus");
+            icon.classList.add("fa-plus");
+        }
+    });
+});

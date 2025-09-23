@@ -14,17 +14,19 @@
 
 <body>
 
-     <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
+ <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <!-- زرار فتح السايد بار -->
+            <button class="navbar-toggler" type="button" id="openSidebar">
                 <span class="fa-solid fa-bars bar"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Sidebar -->
+            <div class="sidebar" id="mobileSidebar">
+                <button class="close-btn d-lg-none" id="closeSidebar"><i class="fa-solid fa-times"></i></button>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <!-- Home -->
                     <li class="nav-item">
@@ -33,90 +35,48 @@
 
                     <!-- About -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="aboutus.html" role="button" aria-expanded="false">
-                            About <i class="fa-solid fa-caret-down"></i>
-                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="nav-link" href="aboutus.html">About <i
+                                    class="fa-solid fa-caret-down d-none d-lg-inline"></i></a>
+                            <span class="toggle-dropdown d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                        </div>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="who-we-are.html">Who We Are</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="our-vision.html">Our Vision</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="our-mission.html">Our Mission</a>
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item" href="management.html">Management</a>
-                            </li>
+                            <li><a class="dropdown-item" href="who-we-are.html">Who We Are</a></li>
+                            <li><a class="dropdown-item" href="our-vision.html">Our Vision</a></li>
+                            <li><a class="dropdown-item" href="our-mission.html">Our Mission</a></li>
+                            <li><a class="dropdown-item" href="management.html">Management</a></li>
                         </ul>
                     </li>
 
                     <!-- Brands -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="brands.html" role="button" aria-expanded="false">
-                            Brands
-                            <i class="fa-solid fa-caret-down"></i>
-                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="nav-link" href="brands.html">Brands <i
+                                    class="fa-solid fa-caret-down d-none d-lg-inline"></i></a>
+                            <span class="toggle-dropdown d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                        </div>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Almarai</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Sadia</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Koki</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Halloum</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Sunbulah</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Heinz</a>
-
-                                <a class="dropdown-item" href="brands-d.html">Almarai</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Sadia</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Koki</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Halloum</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Sunbulah</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="brands-d.html">Heinz</a>
-                            </li>
+                            <li><a class="dropdown-item" href="brands-d.html">Almarai</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">Sadia</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">Koki</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">Halloum</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">Sunbulah</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">Heinz</a></li>
                         </ul>
                     </li>
 
                     <!-- Media -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="media.html" role="button" aria-expanded="false">
-                            Media
-                            <i class="fa-solid fa-caret-down"></i>
-                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a class="nav-link" href="media.html">Media <i
+                                    class="fa-solid fa-caret-down d-none d-lg-inline"></i></a>
+                            <span class="toggle-dropdown d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                        </div>
                         <ul class="dropdown-menu">
-
-                            <li>
-                                <a class="dropdown-item" href="media.html">News</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="media.html">Advertising</a>
-
-                            </li>
+                            <li><a class="dropdown-item" href="media.html">News</a></li>
+                            <li><a class="dropdown-item" href="media.html">Advertising</a></li>
                         </ul>
                     </li>
-
-
 
                     <!-- Sustainability -->
                     <li class="nav-item">
@@ -130,10 +90,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
-                </ul>
 
-                <!-- Language -->
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- Language -->
                     <li class="nav-item">
                         <a class="nav-link button-soild" href="#">Arabic <i class="fa fa-globe"></i></a>
                     </li>
