@@ -4,25 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="includes/images/logo.png">
-    <link rel="stylesheet" href="includes/css/bootstrap.min.css">
-    <link rel="stylesheet" href="includes/fonts/all.min.css">
+    <link rel="shortcut icon" href="../includes/images/logo.png">
+    <link rel="stylesheet" href="../includes/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../includes/fonts/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="includes/call-style.css">
+    <link rel="stylesheet" href="../includes/call-style-rtl.css">
     <title>َQuality Food</title>
 </head>
 
 <body>
-  <div class="loading">
+
+      <div class="loading">
         <span class="loader"></span>
     </div>
 
 
 
-   <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
+ <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
+                <img src="../includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
             </a>
             <!-- زرار فتح السايد بار -->
             <button class="navbar-toggler" type="button" id="openSidebar">
@@ -106,124 +107,168 @@
     </nav>
     <!-- End NAVBAR // -------------------- >>  -->
 
-
-    <div class="intro-bage" style="background-image: url(includes/images/slidtow.jpg);">
+    <div class="intro-bage" style="background-image: url(../includes/images/hero_inner_page.jpg);">
         <div class="intro-bage-layer">
-            <h1> About Us / Our Vision</h1>
+            <h1> Home / Career</h1>
         </div>
     </div>
 
-    <!-- END // INRO // ---------------- >>  -->
+    <!-- banner Bage // ------------ -->
 
 
 
-
-    <!-- why-choose-ARAD // ------------------ >> -->
-
-    <section class="py-5">
+    <section class="job-section py-5">
         <div class="container">
-            <div class="row rev  align-items-center">
-                <div class="col-lg-5">
-                    <div class="why-choose-leftImage" style="background-image: url(includes/images/slid.jpg);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
+            <div class="row g-4 align-items-start">
+                <div class="col-lg-6">
+                    <h3 class="mb-4 badge bg-warning fs-4">Open Positions</h3>
+
+                    <!-- Production Worker -->
+                    <div class="card border-0 mb-3 shadow-sm">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="../includes/images/y2.jpg" alt="Job Icon" class="rounded-circle me-3" width="50"
+                                height="50">
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="card-title mb-1">Production Worker</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <span class="badge bg-primary">Full Time</span>
+                                    <span class="badge bg-danger">On Site</span>
+                                </div>
+                            </div>
+                            <a href="career-d.html" class="btn btn-outline-warning btn-sm ms-auto">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Packaging Staff -->
+                    <div class="card border-0 mb-3 shadow-sm">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="../includes/images/y8.jpg" alt="Job Icon" class="rounded-circle me-3"
+                                width="50" height="50">
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="card-title mb-1">Packaging Staff</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <span class="badge bg-primary">Full Time</span>
+                                    <span class="badge bg-danger">On Site</span>
+                                </div>
+                            </div>
+                            <a href="career-d.html" class="btn btn-outline-warning btn-sm ms-auto">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quality Control -->
+                    <div class="card border-0 mb-3 shadow-sm">
+                        <div class="card-body d-flex align-items-center">
+                            <img src="../includes/images/y2.jpg" alt="Job Icon" class="rounded-circle me-3" width="50"
+                                height="50">
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="card-title mb-1">Quality Control</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <span class="badge bg-primary">Full Time</span>
+                                    <span class="badge bg-danger">On Site</span>
+                                </div>
+                            </div>
+                            <a href="career-d.html" class="btn btn-outline-warning btn-sm ms-auto">
+                                View Details
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="why-choose-ARAD-title" data-aos="fade-left" data-aos-duration="1500">
-                        <h3>Excellence in Impact</h3>
-                        <p>
-                            We seek to create a positive and sustainable impact on our clients and communities, by
-                            providing solutions that keep pace with the needs of the era and achieve tangible results .
-                        </p>
-                    </div>
+
+                <!-- Application Form -->
+                <div class="col-lg-6">
+                    <h3 class="mb-4 badge bg-warning fs-4">Apply Now</h3>
+                    <form class="p-4 border-0 shadow rounded-3 bg-light">
+
+                        <!-- Full Name -->
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name"
+                                required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@email.com"
+                                required>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="05xxxxxxxx" required>
+                        </div>
+
+                        <!-- Job Position -->
+                        <div class="mb-3">
+                            <label for="position" class="form-label">Position</label>
+                            <select class="form-select" id="position" required>
+                                <option selected disabled>Select position</option>
+                                <option value="production-worker">Production Worker</option>
+                                <option value="machine-operator">Machine Operator</option>
+                                <option value="quality-control">Quality Control</option>
+                                <option value="warehouse-worker">Warehouse Worker</option>
+                                <option value="packaging-staff">Packaging Staff</option>
+                                <option value="maintenance-technician">Maintenance Technician</option>
+                                <option value="cleaning-staff">Cleaning Staff</option>
+                                <option value="driver">Driver</option>
+                                <option value="supervisor">Production Supervisor</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+
+
+
+                        <!-- Experience -->
+                        <div class="mb-3">
+                            <label for="experience" class="form-label">Years of Experience</label>
+                            <select class="form-select" id="experience" required>
+                                <option selected disabled>Select experience</option>
+                                <option value="0-1">Less than 1 year</option>
+                                <option value="1-3">1-3 years</option>
+                                <option value="3-5">3-5 years</option>
+                                <option value="5-10">5-10 years</option>
+                                <option value="10+">More than 10 years</option>
+                            </select>
+                        </div>
+
+                        <!-- Cover Letter -->
+                        <div class="mb-3">
+                            <label for="coverLetter" class="form-label">Cover Letter</label>
+                            <textarea class="form-control" id="coverLetter" rows="4"
+                                placeholder="Write a short cover letter..." required></textarea>
+                        </div>
+
+                        <!-- Upload CV -->
+                        <div class="mb-3">
+                            <label for="cv" class="form-label">Upload CV (PDF)</label>
+                            <input class="form-control" type="file" id="cv" accept=".pdf" required>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="button">
+                                Apply
+                            </button>
+                        </div>
+                    </form>
                 </div>
-            </div>
-            <div class="row rev align-items-center">
-                <div class="col-lg-5">
-                    <div class="why-choose-leftImage" style="background-image: url(includes/images/slid1.png);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="why-choose-ARAD-title" data-aos="fade-right" data-aos-duration="1500">
-                        <h3>Integration and Transparency</h3>
-                        <p>
-                            We work with the utmost integrity and clarity to ensure building long-term trust
-                            relationships with our clients and partners.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row rev align-items-center">
-                <div class="col-lg-5">
-                    <div class="why-choose-leftImage" style="background-image: url(includes/images/slidone.jpg);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="why-choose-ARAD-title" data-aos="fade-left" data-aos-duration="1500">
-                        <h3>Creativity in Implementation</h3>
-                        <p>
-                            We invest in unique ideas to transform challenges into opportunities, and we always look to
-                            the future with practical solutions
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row rev align-items-center">
-                <div class="col-lg-5">
-                    <div class="why-choose-leftImage" style="background-image: url(includes/images/slid55.jpg);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="why-choose-ARAD-title" data-aos="fade-right" data-aos-duration="1500">
-                        <h3>Effective Partnerships</h3>
-                        <p>
-                            We believe that success is achieved through collaboration, and we work hand in hand with our
-                            partners to achieve common goals
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row rev align-items-center">
-                <div class="col-lg-5">
-                    <div class="why-choose-leftImage" style="background-image: url(includes/images/slidone.jpg);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="why-choose-ARAD-title" data-aos="fade-left" data-aos-duration="1500">
-                        <h3>Dedication to Quality</h3>
-                        <p>
-                            We dedicate our efforts to providing services and standards that exceed our clients’
-                            expectations, while maintaining high professionalism..
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row rev align-items-center">
-                <div class="col-lg-5">
-                    <div class="why-choose-leftImage" style="background-image: url(includes/images/slidtow.jpg);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="why-choose-ARAD-title" data-aos="fade-right" data-aos-duration="1500">
-                        <h3>Sustainability and Innovation</h3>
-                        <p>
-                            We are committed to providing sustainable solutions that contribute to preserving our
-                            environment and communities, while adopting innovation as a key tool for achieving
-                            sustainable success .
-                        </p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
-    <!-- END //  why-choose-ARAD // ------------------ >> -->
 
-    <!-- FOOTER // ---------------- //   -->
+
 
 
     <footer class="footer-black">
@@ -332,10 +377,11 @@
     <div class="scroll-top" id="scrollTopBtn"><i class="fa fa-arrow-up"></i></div>
 
 
-    <script src="includes/js/bootstrap.bundle.min.js"></script>
-    <script src="includes/js/jquery-3.6.3.min.js"></script>
+    <script src="../includes/js/bootstrap.bundle.min.js"></script>
+    <script src="../includes/js/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="includes/main.js"></script>
+    <script src="../includes/main.js"></script>
+
 </body>
 
 </html>

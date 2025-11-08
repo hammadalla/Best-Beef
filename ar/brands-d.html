@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="includes/images/logo.png">
-    <link rel="stylesheet" href="includes/css/bootstrap.min.css">
-    <link rel="stylesheet" href="includes/fonts/all.min.css">
+    <link rel="shortcut icon" href="../includes/images/logo.png">
+    <link rel="stylesheet" href="../includes/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../includes/fonts/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="includes/call-style.css">
+    <link rel="stylesheet" href="../includes/call-style-rtl.css">
     <title>َQuality Food</title>
 </head>
 
 <body>
-  <div class="loading">
+      <div class="loading">
         <span class="loader"></span>
     </div>
+
 
 
      <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
+                <img src="../includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
             </a>
             <!-- زرار فتح السايد بار -->
             <button class="navbar-toggler" type="button" id="openSidebar">
@@ -106,7 +107,7 @@
     <!-- End NAVBAR // -------------------- >>  -->
 
 
-    <div class="intro-bage" style="background-image: url(includes/images/slidtow.jpg);">
+    <div class="intro-bage" style="background-image: url(../includes/images/slidtow.jpg);">
         <div class="intro-bage-layer">
             <h1> Brands </h1>
         </div>
@@ -122,18 +123,18 @@
             <div class="row overflow-hidden align-items-center">
                 <div class="col-lg-12">
                     <div class="brands-box" data-aos="fade-left" data-aos-duration="1500">
-                        <img src="includes/images/pro2.png" alt="">
+                        <img src="../includes/images/pro2.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="barnds-d" data-aos="fade-right" data-aos-duration="1500">
                         <div class="barnds-d-image">
 
-                            <div id="product-animation" data-src="includes/images/slice.png" data-count="2"
+                            <div id="product-animation" data-src="../includes/images/slice.png" data-count="2"
                                 data-speed="1">
                                 
                             </div>
-                            <img src="includes/images/pro-d.png" alt="">
+                            <img src="../includes/images/pro-d.png" alt="">
                         </div>
                         <h3 class="fw-bold">Excellence in Impact</h3>
                         <p>
@@ -168,7 +169,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" onclick="toggleTable(this)">
                         <div class="services-arad-card-image">
-                            <img src="includes/images/pro5.png" class="bord-d-img" alt="Meat Products">
+                            <img src="../includes/images/pro5.png" class="bord-d-img" alt="Meat Products">
                         </div>
                         <div class="services-arad-card-body">
                             <h4>Argentinian Beef</h4>
@@ -205,7 +206,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" onclick="toggleTable(this)">
                         <div class="services-arad-card-image">
-                            <img src="includes/images/pro-d.png" class="bord-d-img" alt="Meat Products">
+                            <img src="../includes/images/pro-d.png" class="bord-d-img" alt="Meat Products">
                         </div>
                         <div class="services-arad-card-body">
                             <h4>Indian Chicken Curry</h4>
@@ -242,7 +243,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" onclick="toggleTable(this)">
                         <div class="services-arad-card-image">
-                            <img src="includes/images/Group-1-copy-43399888.png" class="bord-d-img" alt="Meat Products">
+                            <img src="../includes/images/Group-1-copy-43399888.png" class="bord-d-img" alt="Meat Products">
                         </div>
                         <div class="services-arad-card-body">
                             <h4>Egyptian Hummus Elsham</h4>
@@ -389,10 +390,10 @@
     <!-- زر السهم -->
     <div class="scroll-top" id="scrollTopBtn"><i class="fa fa-arrow-up"></i></div>
 
-    <script src="includes/js/bootstrap.bundle.min.js"></script>
-    <script src="includes/js/jquery-3.6.3.min.js"></script>
+    <script src="../includes/js/bootstrap.bundle.min.js"></script>
+    <script src="../includes/js/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="includes/main.js"></script>
+    <script src="../includes/main.js"></script>
 
     <script>
         function toggleTable(card) {
@@ -471,6 +472,7 @@
                     for (let i = 0; i < n; i++) {
                         const size = rand(60, 120);
                         const x = rand(20, this.bounds.w - 20);
+
                         const y = rand(-100, -20);
                         const vx = rand(-0.6, 0.6) * this.options.speed;
                         const vy = rand(0.2, 0.6) * this.options.speed;

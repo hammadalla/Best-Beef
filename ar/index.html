@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="includes/images/logo.png">
-    <link rel="stylesheet" href="includes/css/bootstrap.min.css">
-    <link rel="stylesheet" href="includes/fonts/all.min.css">
+    <link rel="shortcut icon" href="../includes/images/logo.png">
+    <link rel="stylesheet" href="../includes/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../includes/fonts/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="includes/call-style.css">
+    <link rel="stylesheet" href="../includes/call-style-rtl.css">
     <title>T.Q.F</title>
 </head>
 
 <body>
-    <div class="loading">
+   <div class="loading">
         <span class="loader"></span>
     </div>
 
     <nav class="navbar shadow-sm navbar-expand-lg" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="includes/images/logo.png" id="siteLogo" class="logo" alt="logo" loading="lazy">
+                <img src="../includes/images/logo.png" id="siteLogo" class="logo" alt="الشعار" loading="lazy">
             </a>
             <!-- زرار فتح السايد بار -->
             <button class="navbar-toggler" type="button" id="openSidebar">
@@ -30,87 +30,88 @@
             <!-- Sidebar -->
             <div class="sidebar" id="mobileSidebar">
                 <button class="close-btn d-lg-none" id="closeSidebar"><i class="fa-solid fa-times"></i></button>
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <!-- Home -->
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <!-- الرئيسية -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
                     </li>
 
-                    <!-- About -->
+                    <!-- من نحن -->
                     <li class="nav-item dropdown">
                         <div class="d-flex justify-content-between align-items-center">
-                            <a class="nav-link" href="aboutus.html">About <i
+                            <a class="nav-link" href="aboutus.html">من نحن <i
                                     class="fa-solid fa-caret-down d-none d-lg-inline"></i></a>
                             <span class="toggle-dropdown d-lg-none"><i class="fa-solid fa-plus"></i></span>
                         </div>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="who-we-are.html">Who We Are</a></li>
-                            <li><a class="dropdown-item" href="our-vision.html">Our Vision</a></li>
-                            <li><a class="dropdown-item" href="our-mission.html">Our Mission</a></li>
-                            <li><a class="dropdown-item" href="management.html">Management</a></li>
+                            <li><a class="dropdown-item" href="who-we-are.html">من نحن</a></li>
+                            <li><a class="dropdown-item" href="our-vision.html">رؤيتنا</a></li>
+                            <li><a class="dropdown-item" href="our-mission.html">مهمتنا</a></li>
+                            <li><a class="dropdown-item" href="management.html">الإدارة</a></li>
                         </ul>
                     </li>
 
-                    <!-- Brands -->
+                    <!-- العلامات التجارية -->
                     <li class="nav-item dropdown">
                         <div class="d-flex justify-content-between align-items-center">
-                            <a class="nav-link" href="brands.html">Brands <i
+                            <a class="nav-link" href="brands.html">العلامات التجارية <i
                                     class="fa-solid fa-caret-down d-none d-lg-inline"></i></a>
                             <span class="toggle-dropdown d-lg-none"><i class="fa-solid fa-plus"></i></span>
                         </div>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="brands-d.html">Almarai</a></li>
-                            <li><a class="dropdown-item" href="brands-d.html">Sadia</a></li>
-                            <li><a class="dropdown-item" href="brands-d.html">Koki</a></li>
-                            <li><a class="dropdown-item" href="brands-d.html">Halloum</a></li>
-                            <li><a class="dropdown-item" href="brands-d.html">Sunbulah</a></li>
-                            <li><a class="dropdown-item" href="brands-d.html">Heinz</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">المراعي</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">سادية</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">كوكي</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">حلوم</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">سنبلة</a></li>
+                            <li><a class="dropdown-item" href="brands-d.html">هاينز</a></li>
                         </ul>
                     </li>
 
-                    <!-- Media -->
+                    <!-- الإعلام -->
                     <li class="nav-item dropdown">
                         <div class="d-flex justify-content-between align-items-center">
-                            <a class="nav-link" href="media.html">Media <i
+                            <a class="nav-link" href="media.html">الإعلام <i
                                     class="fa-solid fa-caret-down d-none d-lg-inline"></i></a>
                             <span class="toggle-dropdown d-lg-none"><i class="fa-solid fa-plus"></i></span>
                         </div>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="media.html">News</a></li>
-                            <li><a class="dropdown-item" href="media.html">Advertising</a></li>
+                            <li><a class="dropdown-item" href="media.html">الأخبار</a></li>
+                            <li><a class="dropdown-item" href="media.html">الإعلانات</a></li>
                         </ul>
                     </li>
 
-                    <!-- Sustainability -->
+                    <!-- الاستدامة -->
                     <li class="nav-item">
-                        <a class="nav-link" href="sustainability.html">Sustainability</a>
+                        <a class="nav-link" href="sustainability.html">الاستدامة</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="career.html">Careers</a>
-                    </li>
-
-                    <!-- Contact -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                        <a class="nav-link" href="career.html">الوظائف</a>
                     </li>
 
-                    <!-- Language -->
+                    <!-- تواصل معنا -->
                     <li class="nav-item">
-                        <a class="nav-link button-soild" href="ar/index.html">Arabic <i class="fa fa-globe"></i></a>
+                        <a class="nav-link" href="contactus.html">تواصل معنا</a>
+                    </li>
+
+                    <!-- اللغة -->
+                    <li class="nav-item">
+                        <a class="nav-link button-soild" href="../index.html">English <i class="fa fa-globe"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <!-- End NAVBAR // -------------------- >>  -->
+
+
     <div class="carousel-section">
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <img src="includes/images/slidtow.jpg" class="Intro-image zoom" alt="slid-intro">
+                    <img src="../includes/images/slidtow.jpg" class="Intro-image zoom" alt="slid-intro">
                     <div class="Intro-image-layer">
                         <div class="Intro-image-layer-pragraph">
                             <h1>Premium <span>Quality</span> Meats</h1>
@@ -133,7 +134,7 @@
 
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <img src="includes/images/slidone.jpg" class="Intro-image zoom" alt="slid-intro">
+                    <img src="../includes/images/slidone.jpg" class="Intro-image zoom" alt="slid-intro">
                     <div class="Intro-image-layer">
                         <div class="Intro-image-layer-pragraph">
                             <h1>Taste the <span>Excellence</span></h1>
@@ -172,6 +173,7 @@
             </button>
         </div>
     </div>
+    
     <!-- End Carousel // -------------------- >>  -->
 
 
@@ -191,7 +193,7 @@
 
                         <a href="brands-d.html">
                             <div class="card-company-slid-image">
-                                <img src="includes/images/pro1.png" alt="Almarai">
+                                <img src="../includes/images/pro1.png" alt="Almarai">
                             </div>
                         </a>
                     </div>
@@ -202,7 +204,7 @@
                     <div class="card-company" data-aos="fade-up" data-aos-duration="1200">
                         <a href="brands-d.html">
                             <div class="card-company-slid-image">
-                                <img src="includes/images/pro2.png" alt="Sadia">
+                                <img src="../includes/images/pro2.png" alt="Sadia">
                             </div>
                         </a>
                     </div>
@@ -214,7 +216,7 @@
 
                         <a href="brands-d.html">
                             <div class="card-company-slid-image">
-                                <img src="includes/images/pro3.png" alt="Koki">
+                                <img src="../includes/images/pro3.png" alt="Koki">
 
                             </div>
                         </a>
@@ -227,7 +229,7 @@
 
                         <a href="brands-d.html">
                             <div class="card-company-slid-image">
-                                <img src="includes/images/pro4.png" alt="Sunbulah">
+                                <img src="../includes/images/pro4.png" alt="Sunbulah">
 
                             </div>
                         </a>
@@ -240,7 +242,7 @@
 
                         <a href="brands-d.html">
                             <div class="card-company-slid-image">
-                                <img src="includes/images/pro55.png" alt="Heinz">
+                                <img src="../includes/images/pro55.png" alt="Heinz">
 
                             </div>
                         </a>
@@ -253,7 +255,7 @@
 
                         <a href="brands-d.html">
                             <div class="card-company-slid-image">
-                                <img src="includes/images/pro56.png" alt="Halloum">
+                                <img src="../includes/images/pro56.png" alt="Halloum">
 
                             </div>
                         </a>
@@ -272,8 +274,8 @@
             <div class="row g-3">
                 <div class="col-lg-6">
                     <div class="why-choose-leftImage" data-aos="fade-right" data-aos-duration="1500"
-                        style="background-image: url(includes/images/slidone.jpg);">
-                        <img src="includes/images/blank2-1.png" class="w-100" alt="">
+                        style="background-image: url(../includes/images/slidone.jpg);">
+                        <img src="../includes/images/blank2-1.png" class="w-100" alt="">
                         <div class="why-choose-leftImage-layer">
                             <div class="why-choose-leftImage-box">
                                 <span><i class="fa-solid fa-plus"></i>5</span>
@@ -308,7 +310,7 @@
                         <div class="why-choose-rightText-branch">
                             <!-- Mission -->
                             <div class="why-choose-rightText-child">
-                                <img src="includes/images/dart-mission-goal-success-svgrepo-com.png" alt="Mission Icon">
+                                <img src="../includes/images/dart-mission-goal-success-svgrepo-com.png" alt="Mission Icon">
                                 <div>
                                     <h4>Mission</h4>
                                     <p>
@@ -320,7 +322,7 @@
                             </div>
                             <!-- Vision -->
                             <div class="why-choose-rightText-child">
-                                <img src="includes/images/vision-svgrepo-com.png" alt="Vision Icon">
+                                <img src="../includes/images/vision-svgrepo-com.png" alt="Vision Icon">
                                 <div>
                                     <h4>Vision</h4>
                                     <p>
@@ -357,8 +359,8 @@
                 <!-- Meat Products -->
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" data-aos="fade-down" data-aos-duration="1000">
-                        <div class="services-arad-card-image" style="background-image: url(includes/images/بانيه.gif);">
-                            <img src="includes/images/blank2-100.png" class="w-100" alt="Meat Products">
+                        <div class="services-arad-card-image" style="background-image: url(../includes/images/بانيه.gif);">
+                            <img src="../includes/images/blank2-100.png" class="w-100" alt="Meat Products">
                             <div class="services-arad-card-layer">
                                 <a href="brands-d.html">
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -379,8 +381,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" data-aos="fade-down" data-aos-duration="1000">
                         <div class="services-arad-card-image"
-                            style="background-image: url(includes/images/Group-1-copy-43399888.png);">
-                            <img src="includes/images/blank2-100.png" class="w-100" alt="Poultry">
+                            style="background-image: url(../includes/images/Group-1-copy-43399888.png);">
+                            <img src="../includes/images/blank2-100.png" class="w-100" alt="Poultry">
                             <div class="services-arad-card-layer">
                                 <a href="brands-d.html">
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -401,8 +403,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" data-aos="fade-down" data-aos-duration="1000">
                         <div class="services-arad-card-image"
-                            style="background-image: url(includes/images/slidtow.jpg);">
-                            <img src="includes/images/blank2-100.png" class="w-100" alt="Frozen Food">
+                            style="background-image: url(../includes/images/slidtow.jpg);">
+                            <img src="../includes/images/blank2-100.png" class="w-100" alt="Frozen Food">
                             <div class="services-arad-card-layer">
                                 <a href="brands-d.html">
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -422,8 +424,8 @@
                 <!-- Spices -->
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" data-aos="fade-down" data-aos-duration="1000">
-                        <div class="services-arad-card-image" style="background-image: url(includes/images/slid.jpg);">
-                            <img src="includes/images/blank2-100.png" class="w-100" alt="Spices">
+                        <div class="services-arad-card-image" style="background-image: url(../includes/images/slid.jpg);">
+                            <img src="../includes/images/blank2-100.png" class="w-100" alt="Spices">
                             <div class="services-arad-card-layer">
                                 <a href="brands-d.html">
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -444,8 +446,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" data-aos="fade-down" data-aos-duration="1000">
                         <div class="services-arad-card-image"
-                            style="background-image: url(includes/images/slidone.jpg);">
-                            <img src="includes/images/blank2-100.png" class="w-100" alt="Ready Meals">
+                            style="background-image: url(../includes/images/slidone.jpg);">
+                            <img src="../includes/images/blank2-100.png" class="w-100" alt="Ready Meals">
                             <div class="services-arad-card-layer">
                                 <a href="brands-d.html">
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -466,8 +468,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-arad-card" data-aos="fade-down" data-aos-duration="1000">
                         <div class="services-arad-card-image"
-                            style="background-image: url(includes/images/slidtow.jpg);">
-                            <img src="includes/images/blank2-100.png" class="w-100" alt="Sauces">
+                            style="background-image: url(../includes/images/slidtow.jpg);">
+                            <img src="../includes/images/blank2-100.png" class="w-100" alt="Sauces">
                             <div class="services-arad-card-layer">
                                 <a href="brands-d.html">
                                     <i class="fa-solid fa-circle-arrow-right"></i>
@@ -649,10 +651,10 @@
     <!-- زر السهم -->
     <div class="scroll-top" id="scrollTopBtn"><i class="fa fa-arrow-up"></i></div>
 
-    <script src="includes/js/bootstrap.bundle.min.js"></script>
-    <script src="includes/js/jquery-3.6.3.min.js"></script>
+    <script src="../includes/js/bootstrap.bundle.min.js"></script>
+    <script src="../includes/js/jquery-3.6.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="includes/main.js"></script>
+    <script src="../includes/main-rtl.js"></script>
 
     <script>
         const counters = document.querySelectorAll('.counter');

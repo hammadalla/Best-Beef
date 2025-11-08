@@ -122,6 +122,7 @@ document.querySelectorAll(".toggle-dropdown").forEach(toggle => {
     });
 });
 
+
  window.addEventListener("load", function () {
     const loader = document.querySelector(".loading");
     loader.style.opacity = "0";         

@@ -1,3 +1,9 @@
+body {
+    font-family: 'SpaceGrotesk', sans-serif;
+    direction: rtl;
+    text-align: right !important;
+}
+
 :root {
     --yellow-color: #FACF0D;
     --black-color: #000;
@@ -11,9 +17,6 @@
     font-style: normal;
 }
 
-body {
-    font-family: 'SpaceGrotesk', sans-serif;
-}
 
 h1,
 h2,
@@ -113,13 +116,13 @@ ul li {
 
 .button:before {
     top: 100%;
-    left: 100%;
+    right: 100%;
     transition: all 0.7s;
 }
 
 .button:hover:before {
     top: -30px;
-    left: -30px;
+    right: -30px;
 }
 
 .button:active:before {
@@ -170,13 +173,13 @@ ul li {
 
 .button-soild:before {
     top: 100%;
-    left: 100%;
+    right: 100%;
     transition: all 0.7s;
 }
 
 .button-soild:hover:before {
     top: -30px;
-    left: -30px;
+    right: -30px;
 }
 
 .button-soild:active:before {
@@ -265,7 +268,7 @@ ul li {
 .nav-link::after {
     position: absolute;
     bottom: 0%;
-    left: 0px;
+    right: 0px;
     background-color: var(--yellow-color);
     height: 0px;
     width: 0px;
@@ -285,7 +288,7 @@ ul li {
     width: 100%;
     z-index: -1;
     bottom: 0%;
-    left: 0px;
+    right: 0px;
 }
 
 .nav-link:hover,
@@ -308,6 +311,7 @@ ul li {
 .dropdown-menu .dropdown-item {
     color: var(--black-color);
     padding: 7px 10px;
+    text-align: right;
 }
 
 .dropdown-item.active,
@@ -325,13 +329,13 @@ ul li {
 
 .fa-caret-down {
     font-size: 13px;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .navbar.fixed {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: rgb(255, 255, 255);
     /* -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px); */
@@ -371,7 +375,7 @@ ul li {
 .whatsapp-btn {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     background-color: #25D366;
     color: white;
     font-size: 24px;
@@ -488,14 +492,14 @@ ul li {
     margin-bottom: 15px;
     position: relative;
     z-index: 1;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
 
 .group-company-title h3::after {
     position: absolute;
-    left: 43%;
+    right: 43%;
     bottom: -2px;
     height: 4px;
     width: 200px;
@@ -507,7 +511,7 @@ ul li {
 .group-company-title h3::before {
     position: absolute;
     bottom: -2px;
-    left: 47%;
+    right: 47%;
     background-color: #F0F2F4;
     height: 4px;
     width: 80px;
@@ -518,7 +522,7 @@ ul li {
 
 .why-choose-ARAD .group-company-title h3::after {
     position: absolute;
-    left: 0%;
+    right: 0%;
     bottom: -2px;
     height: 4px;
     width: 200px;
@@ -530,7 +534,7 @@ ul li {
 .why-choose-ARAD .group-company-title h3::before {
     position: absolute;
     bottom: -2px;
-    left: 10%;
+    right: 10%;
     background-color: #F0F2F4;
     height: 4px;
     width: 50px;
@@ -587,16 +591,16 @@ ul li {
 .why-choose-leftImage-layer {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0px;
     background-color: #F0F2F4;
     padding: 10px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .why-choose-leftImage-layer::after {
     position: absolute;
     bottom: 0px;
-    right: -30px;
+    left: -30px;
     height: 30px;
     width: 30px;
     content: '';
@@ -610,13 +614,13 @@ ul li {
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     -o-transform: rotate(20deg);
-    transform: rotate(20deg);
+    transform: rotate(-67deg);
 }
 
 .why-choose-leftImage-layer::before {
     position: absolute;
     top: -30px;
-    left: -1px;
+    right: 0px;
     height: 30px;
     width: 30px;
     content: '';
@@ -630,7 +634,7 @@ ul li {
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     -o-transform: rotate(20deg);
-    transform: rotate(9deg);
+    transform: rotate(272deg);
 }
 
 .why-choose-leftImage-box {
@@ -702,11 +706,11 @@ ul li {
 
 .why-choose-rightText-child h4 {
     color: var(--black-color);
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .why-choose-rightText-child p {
-    margin-left: 5px;
+    margin-right: 5px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -793,7 +797,7 @@ ul li {
 
 .services-arad-card-layer::before {
     position: absolute;
-    left: -30px;
+    right: -30px;
     bottom: 0px;
     height: 30px;
     width: 30px;
@@ -855,6 +859,10 @@ ul li {
     overflow: hidden;
 }
 
+.rounded-circle.me-3 {
+    margin-right: unset !important;
+    margin-left: 10px !important;
+}
 
 
 
@@ -870,12 +878,11 @@ ul li {
     padding: 30px 20px;
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
     transition: 0.3s ease;
-    border-left: 1px solid #e9e9e9;
-
+    border-right: 1px solid #e9e9e9;
 }
 
 .stats-section .col-md-3:first-child .stat-box {
-    border-left: none;
+    border-right: none;
 }
 
 .stat-box:hover {
@@ -943,7 +950,7 @@ ul li {
 .Intro-image-layer {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     /* background-color: #0000004d; */
@@ -965,7 +972,6 @@ ul li {
     justify-content: center;
     align-items: center;
 }
-
 
 .Intro-image-layer-pragraph h1 {
     color: var(--white-color);
@@ -1032,7 +1038,7 @@ ul li {
 
 .arrow-left {
     position: relative;
-    left: 10px;
+    right: -10px;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -1098,12 +1104,12 @@ ul li {
     padding: 30px 20px;
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); */
     transition: 0.3s ease;
-    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
 
 }
 
 .stats-section .col-lg-2:first-child .stat-box {
-    border-left: none;
+    border-right: none;
 }
 
 .stat-box:hover {
@@ -1148,7 +1154,7 @@ ul li {
 
 .copyright-link::after {
     /* border-right: 1px solid #fff; */
-    margin-left: 5px;
+    margin-right: 5px;
     content: "";
     right: 0px;
     top: 3px;
@@ -1238,7 +1244,7 @@ ul li {
 .footer-black::after {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     background-image: url(images/slidone.jpg);
     background-position: center;
     background-size: cover;
@@ -1311,7 +1317,7 @@ ul li {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     border-radius: 50px;
-    margin-right: 7px;
+    margin-left: 7px;
 }
 
 .footer-link-contact a,
@@ -1323,7 +1329,7 @@ ul li {
 
 .footer-link-contact p span {
     color: var(--white-color);
-    margin-right: 3px;
+    margin-left: 3px;
     font-size: 12px;
 }
 
@@ -1381,7 +1387,7 @@ ul li {
     content: "";
     position: absolute;
     top: 100%;
-    left: 100%;
+    right: 100%;
     /* width: 200px; */
     /* height: 150px; */
     background: var(--white-color);
@@ -1394,7 +1400,7 @@ ul li {
     content: "";
     position: absolute;
     top: 0;
-    left: -75%;
+    right: -75%;
     width: 50%;
     height: 100%;
     background: linear-gradient(120deg,
@@ -1412,7 +1418,7 @@ ul li {
 
 .button-soild:hover::before {
     top: -30px;
-    left: -30px;
+    right: -30px;
 }
 
 .button-soild:active::before {
@@ -1433,7 +1439,7 @@ ul li {
     height: 2px;
     background: var(--white-color);
     position: relative;
-    margin-left: 10px;
+    margin-right: 10px;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -ms-transition: 0.6s;
@@ -1471,11 +1477,11 @@ ul li {
 
 @keyframes shine {
     0% {
-        left: -75%;
+        right: -75%;
     }
 
     100% {
-        left: 125%;
+        right: 125%;
     }
 }
 
@@ -1496,7 +1502,7 @@ ul li {
 .intro-bage-layer {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background-color: #000000b1;
@@ -1573,7 +1579,7 @@ ul li {
 .contact-back::after {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     background-image: url(images/icon-bg-pattern.png);
     content: '';
     width: 100%;
@@ -1604,7 +1610,7 @@ ul li {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .contact-icon i {
@@ -1664,7 +1670,7 @@ ul li {
 .rightAboutSide h3::after {
     position: absolute;
     bottom: -2px;
-    left: 0;
+    right: 0;
     background-color: var(--yellow-color);
     height: 4px;
     width: 120px;
@@ -1674,7 +1680,7 @@ ul li {
 .rightAboutSide h3::before {
     position: absolute;
     bottom: -2px;
-    left: 25px;
+    right: 25px;
     background-color: var(--white-color);
     height: 4px;
     width: 57px;
@@ -1815,7 +1821,7 @@ ul li {
 .nutrition-table table {
     width: 100%;
     border-collapse: collapse;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
 }
 
@@ -1823,19 +1829,21 @@ ul li {
 .nutrition-table td {
     padding: 8px 12px;
     border: 1px solid #000;
+    text-align: right;
 }
 
 .nutrition-table th {
     background-color: #000;
     color: #fff;
     text-align: center;
+
 }
 
 
 #product-animation {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -1903,7 +1911,7 @@ ul li {
 .catalog-ribbon {
     position: absolute;
     top: 12px;
-    left: 12px;
+    right: 12px;
     background: #000;
     box-shadow: 0 0 15px 1px #0000006b;
     color: #fff;
@@ -2022,7 +2030,7 @@ ul li {
 
     .nav-link:hover::after {
         top: 0;
-        left: -5px
+        right: -5px
     }
 
     .nav-link::after {
@@ -2045,12 +2053,12 @@ ul li {
         margin-bottom: 15px;
         position: relative;
         z-index: 1;
-        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .group-company-title h3::after {
         position: absolute;
-        left: 36%;
+        right: 37%;
         bottom: -2px;
         height: 4px;
         width: 200px;
@@ -2062,12 +2070,13 @@ ul li {
     .group-company-title h3::before {
         position: absolute;
         bottom: -2px;
-        left: 43%;
+        right: 45%;
         background-color: #F0F2F4;
         height: 4px;
         width: 80px;
         content: "";
         z-index: 22;
+        transform: translate(-15%, 0%);
     }
 
     .counter {
@@ -2076,14 +2085,14 @@ ul li {
     }
 
     .stats-section .col-lg-2:last-child .stat-box {
-        border-left: none;
+        border-right: none;
     }
 
     /* Sidebar styles */
     .sidebar {
         position: fixed;
         top: 0;
-        right: -280px;
+        left: -280px;
         width: 280px;
         height: 100vh;
         background: #fff;
@@ -2092,18 +2101,18 @@ ul li {
         transition: 0.3s ease;
         z-index: 9999;
         overflow-y: auto;
-        margin: auto;
     }
 
+
     .sidebar.open {
-        right: 0;
+        left: 0;
     }
 
     .sidebar .close-btn {
         background: none;
         border: none;
         font-size: 24px;
-        float: right;
+        float: left;
         margin-bottom: 20px;
     }
 
